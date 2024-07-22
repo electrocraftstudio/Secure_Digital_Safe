@@ -14,19 +14,24 @@ The Secure Digital Safe project is an Arduino-based digital safe that uses a key
 - Breadboard and Jumper Wires
 
 ## Libraries to Install
-To run this project, you need to install three libraries in the Arduino IDE:
 
-1. **Wire.h**: This library is used for I2C communication. It usually comes pre-installed with the Arduino IDE.
-2. **LiquidCrystal_I2C.h**: This library allows you to control an LCD screen with the I2C interface.
-3. **Keypad.h**: This library is used to interface with a keypad.
-
-### Steps to Install Libraries
+### Wire Library
 1. Open the Arduino IDE.
 2. Go to `Sketch` > `Include Library` > `Manage Libraries...`.
-3. In the Library Manager, type the name of the library you need (e.g., `LiquidCrystal_I2C` or `Keypad`) in the search bar.
-4. Find the library in the list and click `Install`.
+3. In the Library Manager, search for "Wire".
+4. Install the library by Arduino.
 
-Repeat these steps for each library.
+### LiquidCrystal_I2C Library
+1. Open the Arduino IDE.
+2. Go to `Sketch` > `Include Library` > `Manage Libraries...`.
+3. In the Library Manager, search for "LiquidCrystal_I2C".
+4. Install the library by Frank de Brabander.
+
+### Keypad Library
+1. Open the Arduino IDE.
+2. Go to `Sketch` > `Include Library` > `Manage Libraries...`.
+3. In the Library Manager, search for "Keypad".
+4. Install the library by Mark Stanley and Alexander Brevig.
 
 ## Wiring Connections
 ### Keypad:
